@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Manipulando o DOM</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <h1>Bem-vindo ao ZooWeb!</h1>
+  <h2>Escolha um das opções abaixo e veja os animais!</h2>
+  <button id="btnCarnivoro">Mostrar um animal carnívoro!</button>
+  <button id="btnHerbivoro">Mostrar um animal herbívoro!</button>
+  <button id="btnLimpar">Limpar</button>
+
+  <div class="container">
+    <div class="painelAnimal" id="painel">
+      <div class="blocoImagem" id="blocoImagem">
+        <img id="imagemAnimal" src="" alt="">
+      </div>
+      <div class="blocoDescricao" id="blocoDescricao">
+        <h3 id="descricaoAnimal"></h3>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js" defer></script>
+</body>
+
+</html>
